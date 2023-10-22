@@ -1,87 +1,586 @@
 <!DOCTYPE html>
-<!-- saved from url=(0046)https://rishabh-malik.github.io/rishabh-malik/ -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <script type="text/javascript" async="" src="index_files/analytics.js.download"></script><script src="index_files/jquery.min.js.download"></script>
-    <script type="text/javascript">
-    jQuery(window).load(function() {
-        jQuery(".loader-overlay").fadeOut(5000);
-    });
-    </script>
-    
-    <title>Infinity</title>
-    <link href="index_files/css" rel="stylesheet" type="text/css">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900">
-    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="index_files/style.css">
-    <link rel="apple-touch-icon" sizes="57x57" href="https://rishabh-malik.github.io/rishabh-malik/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="https://rishabh-malik.github.io/rishabh-malik/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="https://rishabh-malik.github.io/rishabh-malik/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="https://rishabh-malik.github.io/rishabh-malik/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="https://rishabh-malik.github.io/rishabh-malik/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="https://rishabh-malik.github.io/rishabh-malik/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="https://rishabh-malik.github.io/rishabh-malik/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="https://rishabh-malik.github.io/rishabh-malik/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://rishabh-malik.github.io/rishabh-malik/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="https://rishabh-malik.github.io/rishabh-malik/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://rishabh-malik.github.io/rishabh-malik/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="https://rishabh-malik.github.io/rishabh-malik/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://rishabh-malik.github.io/rishabh-malik/favicon/favicon-16x16.png">
-    <link rel="manifest" href="https://rishabh-malik.github.io/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="shortcut icon" href="https://rishabh-malik.github.io/rishabh-malik/favicon.ico" type="favicon.ico">
-    <style type="text/css">
-    .fa-font:before {
-        font-family: roboto;
-        color: #377eb6;
-        font-size: 1.2em;
-        content: "k";
-    }
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Bhavya Wadhwa :: Robotics Portfolio</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width" />
 
-    .loader-overlay {
-        width: 100%;
-        height: 100%;
-        background: url('https://rishabh-malik.github.io/rishabh-malik/img/4d.gif') center no-repeat #000;
-        z-index: 99999;
-        position: fixed;
-    }
-    </style>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async="" src="index_files/js"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/isotope.css" />
+    <link rel="stylesheet" href="css/main.css" />
 
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <!-- sample color stylesheet -->
+    <!-- <link rel="stylesheet" href="css/color/gold.css"> -->
 
-    gtag('config', 'UA-112402500-1');
-    </script>
-</head>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="img/profile_pic.jpeg" />
 
-<body data-gr-c-s-loaded="true">
-    <div class="loader-overlay" style="display: none;"></div>
-    <section class="hero" name="top">
-        <div class="inner-text">
-            <p class="p1" id="name">Bhavya</p>
-            <p class="p2">Wadhwa</p>
-            <p class="p3"><span class="white">Robotics Software Engineer</span> </p>
-            <p class="p3"><span class="white">Exploring</span> <b>Infinity</b> <span class="white">in pursuit of absolute</span> <b>Perfection</b></p>
-            <div class="icon-row">
-                <a href="https://mail.google.com/mail/u/0/?view=cm&amp;fs=1&amp;to=bhavyawadhwa81@gmail.com&amp;&amp;tf=1"><i class="fa fa-envelope"></i></a>
-                <a href="https://www.linkedin.com/in/bhavya-wadhwa-46b249165"><i class="fa fa-linkedin"></i></a>
-                <a href="#"><i class="fa fa-twitter "></i></a>
-                <a href="#"><i class="fa fa-medium"></i></a>
-                <a href="https://github.com/bhavyawadhwa856"><i class="fa fa-github-alt"></i></a>
-            </div>
+    <!-- Google fonts -->
+
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Fredoka+One"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Lato:100"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    <script src="js/jquery.min.js"></script>
+  </head>
+  <body data-spy="scroll" data-target=".navbar">
+    <div class="navbar affix main-trend-navbar">
+      <div class="navbar-inner">
+        <img src="img/profile_pic.jpeg" class="profile-pic" />
+        <a href="#" class="small-nav-toggle"><i class="fa fa-bars"></i></a>
+        <div style="clear: both"></div>
+        <ul class="nav option-set scroll-link">
+          <li>
+            <a href="#home"><i class="fa fa-coffee"></i> Home</a>
+          </li>
+          <li>
+            <a href="#portfolio"><i class="fa fa-camera"></i> Portfolio</a>
+          </li>
+          <li>
+            <a href="#about"><i class="fa fa-user"></i> About</a>
+          </li>
+          <li>
+            <a href="#contact"><i class="fa fa-envelope"></i> Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- home begins -->
+    <div id="home" class="content-section masthead-content">
+      <div class="main-masthead">
+        <div class="container masthead-container text-center">
+          <h1 class="intro-text">Bhavya Wadhwa</h1>
+          <h2 class="intro-secondary">Robotics Software Engineer</h2>
+          <!-- <h2 class="intro-secondary">MS in Space Engineering</h2>
+          <h2 class="intro-secondary">
+            BS in Mechanical & Automation Engineering
+          </h2> -->
+          <div class="social-icons">
+            <a
+              href="https://www.linkedin.com/in/bhavya-wadhwa-46b249165/"
+              class="btn btn-round btn-clear"
+              ><i class="fa fa-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/bhavyawadhwa856"
+              class="btn btn-round btn-clear"
+              ><i class="fa fa-github"></i>
+            </a>
+            <!-- <a
+              href="https://drive.google.com/file/d/1Xd9qUcHYs6wypeRrT18r_ViNA3eDNBHD/view?usp=sharing"
+              class="btn btn-round btn-clear"
+              ><i class="fa fa-file-text"></i>
+            </a> -->
+          </div>
         </div>
-        <a class="hero-down" href="bolt.html">
-            <div class="btn-react"></div>
-            <i class="fa fa-bolt fa-2x flash"></i>
-        </a>
-    </section>
+        <!-- header image: -->
+        <img class="masthead-image parallax" src="img/main3.jpg" />
+      </div>
+    </div>
+    <!-- home ends -->
 
+    <!-- portfolio begins -->
+    <!-- May implement project categories in the future... -->
+    <div class="content-section" id="portfolio">
+      <div class="container">
+        <h1>Portfolio</h1>
+        <ul class="nav option-isotope" data-option-key="filter">
+          <li>
+            <a
+              href="#show-all"
+              data-option-value="*"
+              class="selected btn btn-clear"
+              >Projects<!-- All -->
+            </a>
+          </li>
+          <!-- <li>
+                        <a href="#" data-option-value=".category-1" class="btn btn-clear">Photo
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-option-value=".category-2" class="btn btn-clear">Gallery
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-option-value=".category-3" class="btn btn-clear">Video
+                        </a>
+                    </li> -->
+        </ul>
+        <div id="container-isotope" class="super-list clearfix">
+          <a href="project_1.html" class="element category-1">
+            <img
+              src="img/portfolio/proj1_thumb.jpeg"
+              class="portfolio-image"
+              alt="portfolio image"
+            />
+            <span class="portfolio-text">
+              <h3>Robotics Software and Test Engineer</h3>
+              <span><i class="fa fa-tag"></i>MSR </span>
+              <p>
+                Jira; Confluence; C++/C; Python; ROS2; Docker; HIL;
+                Bash/shell; Perception, Computer Vision;
+                AI & ML libraries; Robotics Control; Simulation
+                Rviz, Gazebo; Embedded; CI/CD, Git; Database Management
+              </p>
+            </span>
+          </a>
 
-</body></html>
+          <a href="project_2.html" class="element category-1">
+            <img
+              src="img/portfolio/proj2_thumb.jpeg"
+              class="portfolio-image"
+              alt="portfolio image"
+            />
+            <span class="portfolio-text">
+              <h3>3U CubeSat Student Project</h3>
+              <span><i class="fa fa-tag"></i>MSR </span>
+              <p>
+                Science & Payload; Systems Engineering; Satellite Development
+              </p>
+            </span>
+          </a>
+
+          <a href="project_3.html" class="element category-1">
+            <img
+              src="img/portfolio/proj3_thumb.jpeg"
+              class="portfolio-image"
+              alt="portfolio image"
+            />
+            <span class="portfolio-text">
+              <h3>Robotics Software Student Assistant at IAI</h3>
+              <span><i class="fa fa-tag"></i>MSR </span>
+              <p> Jira; C++/C; Python; ROS; Docker; Kubernetes; SLAM; HIL; Sensor Fusion;
+                Bash/shell Scripts; Perception, Computer Vision; AI & ML libraries;
+                Robotics Control; Linux; CI/CD, Git</p>
+            </span>
+          </a>
+
+          <a href="project_4.html" class="element category-1">
+            <img
+              src="img/portfolio/proj4_thumb.jpeg"
+              class="portfolio-image"
+              alt="portfolio image"
+            />
+            <span class="portfolio-text">
+              <h3>WARR Rover TU MUNICH</h3>
+              <span><i class="fa fa-tag"></i>MSR </span>
+              <p>Robotics; Embedded Programming; C++; Docker; Git; API; Mocking</p>
+            </span>
+          </a>
+
+          <a href="project_5.html" class="element category-1">
+            <img
+              src="img/portfolio/proj5_thumb.jpeg"
+              class="portfolio-image"
+              alt="portfolio image"
+            />
+            <span class="portfolio-text">
+              <h3>Robotics Software Student Assistant at DFKI</h3>
+              <span><i class="fa fa-tag"></i>WDI </span>
+              <p>Jira; C++/C; Python; ROCK; AI & ML libraries; Robotics Control; Simulation; Motion Planning</p>
+            </span>
+          </a>
+
+          <a href="project_6.html" class="element category-1">
+            <img
+              src="img/portfolio/proj6_thumb.jpeg"
+              class="portfolio-image"
+              alt="portfolio image"
+            />
+            <span class="portfolio-text">
+              <h3>Research Assistant Uni-Bremen</h3>
+              <span><i class="fa fa-tag"></i>WML </span>
+              <p>Labview; Sensor Integration; DAQ; Data Logging</p>
+            </span>
+          </a>
+          <a href="project_7.html" class="element category-1">
+            <img
+              src="img/portfolio/proj7_thumb.jpeg"
+              class="portfolio-image"
+              alt="portfolio image"
+            />
+            <span class="portfolio-text">
+              <h3>Robotics Intern at KUKA</h3>
+              <span><i class="fa fa-tag"></i>WML </span>
+              <p>Jira; C++/C; Python; KRL;Embedded; CAD; KUKA sim</p>
+            </span>
+          </a>
+          <a href="project_8.html" class="element category-1">
+            <img
+              src="img/portfolio/proj8_thumb.jpeg"
+              class="portfolio-image"
+              alt="portfolio image"
+            />
+            <span class="portfolio-text">
+              <h3>Summer Intern at Bosch</h3>
+              <span><i class="fa fa-tag"></i>WML </span>
+              <p>Senors; Actuator; Embedded</p>
+            </span>
+          </a>
+          <a href="project_9.html" class="element category-1">
+            <img
+              src="img/portfolio/proj9_thumb.jpeg"
+              class="portfolio-image"
+              alt="portfolio image"
+            />
+            <span class="portfolio-text">
+              <h3>Mega ATV National Level Competition</h3>
+              <span><i class="fa fa-tag"></i>WML </span>
+              <p>CAD (Solidworks), ANSYS, Arduino, programming, manufacturing</p>
+            </span>
+          </a>
+
+          <a href="project_holder.html" class="element category-2">
+            <img
+              src="img/portfolio/proj_holder_thumb.jpg"
+              class="portfolio-image"
+              alt="portfolio image"
+            />
+          </a>
+
+          <!-- <a href="project_video_3.html" class="element category-3">
+                        <img src="img/portfolio/3_thumb.jpg" class="portfolio-image" alt="portfolio image"/>
+                        <span class="portfolio-text">
+                            <h3>Concept
+                            </h3>
+                            <span><i class="fa fa-tag"></i>Video
+                            </span>
+                            <p>Lorem ipsum dolor site amet con, sectetur adipiscing elit.
+                            </p>
+                        </span>
+                    </a> -->
+
+          <!-- <a href="project_carousel_4.html" class="element category-2">
+                        <img src="img/portfolio/4_thumb.jpg" class="portfolio-image" alt="portfolio image"/>
+                        <span class="portfolio-text">
+                            <h3>Amorphous
+                            </h3>
+                            <span><i class="fa fa-tag"></i>Gallery
+                            </span>
+                            <p>Lorem ipsum dolor site amet con, sectetur adipiscing elit.
+                            </p>
+                        </span>
+                    </a>
+                    
+                    <a href="project_image_5.html" class="element category-1">
+                        <img src="img/portfolio/5_thumb.jpg" class="portfolio-image" alt="portfolio image"/>
+                        <span class="portfolio-text">
+                            <h3>Ethereal
+                            </h3>
+                            <span><i class="fa fa-tag"></i>Photo
+                            </span>
+                            <p>Lorem ipsum dolor site amet con, sectetur adipiscing elit.
+                            </p>
+                        </span>
+                    </a>
+                    
+                    <a href="project_video_6.html" class="element category-3">
+                        <img src="img/portfolio/6_thumb.jpg" class="portfolio-image" alt="portfolio image"/>
+                        <span class="portfolio-text">
+                            <h3>Halcyon
+                            </h3>
+                            <span><i class="fa fa-tag"></i>Video
+                            </span>
+                            <p>Lorem ipsum dolor site amet con, sectetur adipiscing elit.
+                            </p>
+                        </span>
+                    </a>
+                    
+                    <a href="project_image_7.html" class="element category-1">
+                        <img src="img/portfolio/7_thumb.jpg" class="portfolio-image" alt="portfolio image"/>
+                        <span class="portfolio-text">
+                            <h3>Horizons
+                            </h3>
+                            <span><i class="fa fa-tag"></i>Photo
+                            </span>
+                            <p>Lorem ipsum dolor site amet con, sectetur adipiscing elit.
+                            </p>
+                        </span>
+                    </a>
+                    
+                    <a href="project_video_8.html" class="element category-3">
+                        <img src="img/portfolio/8_thumb.jpg" class="portfolio-image" alt="portfolio image"/>
+                        <span class="portfolio-text">
+                            <h3>Nebulous
+                            </h3>
+                            <span><i class="fa fa-tag"></i>Video
+                            </span>
+                            <p>Lorem ipsum dolor site amet con, sectetur adipiscing elit.
+                            </p>
+                        </span>
+                    </a>
+                    
+                    <a href="project_image_9.html" class="element category-1">
+                        <img src="img/portfolio/9_thumb.jpg" class="portfolio-image" alt="portfolio image"/>
+                        <span class="portfolio-text">
+                            <h3>Resonance
+                            </h3>
+                            <span><i class="fa fa-tag"></i>Photo
+                            </span>
+                            <p>Lorem ipsum dolor site amet con, sectetur adipiscing elit.
+                            </p>
+                        </span>
+                    </a>
+                    
+                    <a href="project_carousel_10.html" class="element category-2">
+                        <img src="img/portfolio/10_thumb.jpg" class="portfolio-image" alt="portfolio image"/>
+                        <span class="portfolio-text">
+                            <h3>Symphony
+                            </h3>
+                            <span><i class="fa fa-tag"></i>Gallery
+                            </span>
+                            <p>Lorem ipsum dolor site amet con, sectetur adipiscing elit.
+                            </p>
+                        </span>
+                    </a>
+                    
+                    <a href="project_carousel_11.html" class="element category-2">
+                        <img src="img/portfolio/11_thumb.jpg" class="portfolio-image" alt="portfolio image"/>
+                        <span class="portfolio-text">
+                            <h3>Insouciance
+                            </h3>
+                            <span><i class="fa fa-tag"></i>Gallery
+                            </span>
+                            <p>Lorem ipsum dolor site amet con, sectetur adipiscing elit.
+                            </p>
+                        </span>
+                    </a>
+                    
+                    <a href="project_video_12.html" class="element category-3">
+                        <img src="img/portfolio/12_thumb.jpg" class="portfolio-image" alt="portfolio image"/>
+                        <span class="portfolio-text">
+                            <h3>Vestige
+                            </h3>
+                            <span><i class="fa fa-tag"></i>Video
+                            </span>
+                            <p>Lorem ipsum dolor site amet con, sectetur adipiscing elit.
+                            </p>
+                        </span>
+                    </a> -->
+        </div>
+      </div>
+      <img class="masthead-image parallax" src="img/main3.jpg" />
+    </div>
+    <!-- portfolio ends -->
+
+    <!-- about begins -->
+    <div class="content-section" id="about">
+      <div class="container">
+        <h1>About</h1>
+        <p class="medium-text" style="text-indent: 5%">
+          My name is Bhavya Wadhwa. I'm a robotics engineer with a
+          specialization in control, software and testing. I enjoy solving real
+          world problems using robotics technology and intelligent machines. I
+          have gained skills in programming languages, control algorithms,
+          robotics control and sensor integration through projects, courses, and
+          practical applications in various job roles. I am familiar working
+          with middleware, frameworks and toolboxes. Moreover, I have worked
+          with HIL, SIL testing systems, embedded, networking and communication
+          protocols. I’m dedicated, enthusiastic and committed to continuous
+          learning and skill development.
+        </p>
+        <!-- <p class="medium-text" style="text-indent: 5%">
+        </p> -->
+
+        <!-- <div class="row-fluid">
+          <div class="span7">
+            <h3 class="main-color">Areas of Interests</h3>
+
+            <div class="row-employment">
+              <h4 class="thin-title">Human Robot Interaction</h4>
+              <strong class="about-meta"><i class="fa fa-calendar"></i>Dec 2012 - July 2013</strong>
+              <p>Created design solutions that had a high visual impact. Design decisions involved listening to clients and understanding their needs before making design decisions. Produced variety of graphics to communicate a better corporate identity.
+                            </p> -->
+            <!-- </div> -->
+            <!-- <div class="row-employment"> -->
+              <!-- <h4 class="thin-title">Control Systems and Automation</h4> -->
+              <!-- <strong class="about-meta"><i class="fa fa-calendar"></i>Dec 2012 - July 2013</strong>
+                            <p>Created design solutions that had a high visual impact. Design decisions involved listening to clients and understanding their needs before making design decisions. Produced variety of graphics to communicate a better corporate identity.
+                            </p> -->
+            <!-- </div> -->
+            <!-- <div class="row-employment"> -->
+              <!-- <h4 class="thin-title">Mobile Robots</h4> -->
+              <!-- <strong class="about-meta"><i class="fa fa-calendar"></i>Dec 2012 - July 2013</strong>
+                            <p>Created design solutions that had a high visual impact. Design decisions involved listening to clients and understanding their needs before making design decisions. Produced variety of graphics to communicate a better corporate identity.
+                            </p> -->
+            <!-- </div> -->
+            <!-- <div class="row-employment"> -->
+              <!-- <h4 class="thin-title">Exoskeletons and Human Augmentation</h4> -->
+              <!-- <strong class="about-meta"><i class="fa fa-calendar"></i>Dec 2012 - July 2013</strong>
+                            <p>Created design solutions that had a high visual impact. Design decisions involved listening to clients and understanding their needs before making design decisions. Produced variety of graphics to communicate a better corporate identity.
+                            </p> -->
+            <!-- </div> -->
+          <!-- </div> --> 
+          <div class="span4 offset1">
+            <h3 class="main-color">Skills</h3>
+            <div>
+              <p style="font-size: 18px">
+                • Jira • Confluence • C++/C • Python Programming • ROS, ROS2,
+                ROCK • Docker • Kubernetes • SLAM • HIL • Sensor Fusion •
+                Bash/shell Scripts • Perception, Computer Vision • Raspberry Pi
+                • Arduino • AI & ML libraries • Robotics Control • Simulation
+                Rviz, Gazebo • Embedded • Physics & Algorithms • Latex, Linux,
+                MS Office • CI/CD, Git • Database Management • CAD
+              </p>
+              <!-- <div class="progress">
+                <div class="bar" style="width: 70%">
+                  <span>ROS</span>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="bar" style="width: 60%">
+                  <span>Python</span>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="bar" style="width: 40%">
+                  <span>C++</span>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="bar" style="width: 10%">
+                  <span>Android</span>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="bar" style="width: 90%">
+                  <span>CAD (SolidWorks)</span>
+                </div>
+              </div>
+
+              <div class="progress">
+                <div class="bar" style="width: 100%">
+                  <span>Rapid Protoyping</span>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="bar" style="width: 10%">
+                  <span>HTML/JavaScript</span>
+                </div>
+              </div> -->
+            </div>
+
+            <h3 class="main-color">Education</h3>
+            <div>
+              <div class="row-edu">
+                <h4 class="thin-title">MS Space Engineering</h4>
+                <strong class="about-meta"
+                  >University of Bremen, 2020</strong
+                >
+              </div>
+              <div class="row-edu">
+                <h4 class="thin-title">
+                  B Tech Mechanical & Automation Engineering
+                </h4>
+                <strong class="about-meta"
+                  >Guru Gobind Singh Indraprastha University, India,
+                  2016</strong
+                >
+              </div>
+            </div>
+            <!-- <h3 class="main-color">Testimonials</h3>
+
+						<div id="testimonials_carousel" class="carousel slide">
+						  <div class="carousel-inner">
+							<div class="item active">
+							  <blockquote>John Doe is a great guy to work with. Constantly reliable and efficient. A++.
+								<small>Bob Smith</small>
+							  </blockquote>
+							</div>
+							<div class="item">
+							  <blockquote>Delivered results immediately. Impeccable attention to detail.
+								<small>Jane Smith</small>
+							  </blockquote>
+							</div>
+							<div class="item">
+							  <blockquote>Great doing business with you! Absolutely totally satisfied in every way.
+								<small>Mr Boss</small>
+							  </blockquote>
+							</div>
+						  </div>
+						  <ol class="carousel-indicators testimonials">
+							<li data-target="#testimonials_carousel" data-slide-to="0" class="active"></li>
+							<li data-target="#testimonials_carousel" data-slide-to="1" class=""></li>
+							<li data-target="#testimonials_carousel" data-slide-to="2" class=""></li>
+						  </ol>
+						</div> -->
+          </div>
+        </div>
+      </div>
+      <img class="masthead-image parallax" src="img/main3.jpg" />
+    </div>
+    <!-- about ends -->
+
+    <!-- contact begins -->
+    <div class="content-section" id="contact">
+      <div class="container">
+        <h1>Contact</h1>
+        <!-- <div clas="row-fluid">
+          <iframe
+            class="google-maps-embed"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            src="
+                   https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52817.485112589835!2d-118.25554109165408!3d34.16954446685537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c032c8f083a9%3A0xe53fa19efec926a6!2sGlendale%2C%20CA!5e0!3m2!1sen!2sus!4v1664910027584!5m2!1sen!2sus"
+            width="750"
+            height="250"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen
+          ></iframe>
+        </div> -->
+        <br />
+        <div class="row-fluid">
+          <div class="span5">
+            <h3 class="main-color">Personal Info</h3>
+            <p class="medium-text">
+              <i class="fa fa-user h4-icon"></i> <strong>Bhavya Wadhwa</strong>
+              <br />
+              <i class="fa fa-phone h4-icon"></i> <strong>+491797277083</strong>
+              <br />
+              <i class="fa fa-envelope h4-icon"></i>
+              <strong>bhavya@uni-bremen.de</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+      <img class="masthead-image parallax" src="img/main3.jpg" />
+    </div>
+    <!-- contact ends -->
+
+    <div class="overlay"></div>
+    <div class="portfolio-overlay"></div>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/jquery.ui.ease.js"></script>
+    <script src="js/vendor/jquery.isotope.min.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
